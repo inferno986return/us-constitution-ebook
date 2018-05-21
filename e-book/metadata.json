@@ -1,0 +1,185 @@
+{
+		"comment0": "Metadata.json - Insert the e-book's metadata here, so that the content.opf and toc.ncx files can be filled. May use data for ONIX3 too. WIP",
+
+		"comment1": "Folder metadata - This contains the names of the technical folders, if you change the default names please update them here.",
+		"containerFolder": "OEBPS",
+		"cssFolder": "styles",
+		"imagesFolder": "images",
+		"fontsFolder": "fonts",
+
+		"comment2": "Technical metadata - This is the where the cover image is specified. Recommended to use ePub V2.0.1 over 3.0 for epubVersion and Reflowable rather than Fixed for textPresentation (unless doing a project that requires a specific layout). mobiCover and generateKindle are currently unused but added for futureproofing.",
+		"epubCover": "cover.png",
+		"mobiCover": "cover.png",
+		"fileName": "CathedralBazaar",
+		"epubVersion": "2.0.1",
+		"textPresentation": "Reflowable",
+		"generateKindle": "no",
+		"generateGoogle": "yes",
+
+		"comment3": "Book metadata - Information about the e-book itself. Language is specified with ISO 639-1. ISBN number can be declared, as well as the Amazon ASIN. Rights can be worldwide, country specific or under a permissable license such as Creative-Commons SA",
+		"title": "The Cathedral &amp; the Bazaar - Musings on Linux and Open Source by an Accidental Revolutionary",
+		"titleShort": "The Cathedral &amp; the Bazaar",
+		"creator": "Eric S. Raymond",
+		"subject": "Technology",
+		"publisher": "Eric S. Raymond",
+		"ISBN": "978-0-596001087",
+		"ASIN": "0596001088",
+		"language": "en",
+		"rights": "Open Publication License 2.0",
+
+		"comment4": "This is the page order that the e-book has. The first number before the colon is the page order, the second is the indentation (default is 1, allowed upto 4), third is the page name and fourth is file itself.",
+		"pages": [
+					{
+						"pageNumber": "0",
+						"indentation": "1",
+						"pageName": "Front Cover",
+						"fileName": "bookcover.xhtml"
+					},
+					{
+						"pageNumber": "1",
+						"indentation": "1",
+						"pageName": "Title",
+						"fileName": "title.xhtml"
+					},
+					{
+						"pageNumber": "2",
+						"indentation": "1",
+						"pageName": "Indicia",
+						"fileName": "indicia.xhtml"
+					},
+					{
+						"pageNumber": "3",
+						"indentation": "1",
+						"pageName": "License",
+						"fileName": "license.xhtml",
+						"anchorNames": {
+							"anchorName0": "Content license",
+							"anchorName1": "E-book license"
+						},
+						"anchorLinks": {
+							"anchorLink0": "#content-license",
+							"anchorLink1": "#ebook-license"
+						}
+					},
+					{
+						"pageNumber": "4",
+						"indentation": "1",
+						"pageName": "Abstract",
+						"fileName": "abstract.xhtml"
+					},
+					{
+						"pageNumber": "5",
+						"indentation": "1",
+						"pageName": "Revision History",
+						"fileName": "revisionhistory.xhtml"
+					},
+					{
+						"pageNumber": "6",
+						"indentation": "1",
+						"pageName": "Table of Contents",
+						"fileName": "toc.xhtml"
+					},
+					{
+						"pageNumber": "7",
+						"indentation": "1",
+						"pageName": "The Cathedral and the Bazaar",
+						"fileName": "cathedralbazaar.xhtml"
+					},
+					{
+						"pageNumber": "8",
+						"indentation": "1",
+						"pageName": "The Mail Must Get Through",
+						"fileName": "mailthrough.xhtml"
+					},
+					{
+						"pageNumber": "9",
+						"indentation": "1",
+						"pageName": "The Importance of Having Users",
+						"fileName": "importanceusers.xhtml"
+					},
+					{
+						"pageNumber": "10",
+						"indentation": "1",
+						"pageName": "Release Early, Release Often",
+						"fileName": "releaseearly.xhtml"
+					},
+					{
+						"pageNumber": "11",
+						"indentation": "1",
+						"pageName": "How Many Eyeballs Tame Complexity",
+						"fileName": "eyeballscomplexity.xhtml"
+					},
+					{
+						"pageNumber": "12",
+						"indentation": "1",
+						"pageName": "When Is a Rose Not a Rose?",
+						"fileName": "notarose.xhtml"
+					},
+					{
+						"pageNumber": "13",
+						"indentation": "1",
+						"pageName": "Popclient becomes Fetchmail",
+						"fileName": "popclientfetchmail.xhtml"
+					},
+					{
+						"pageNumber": "14",
+						"indentation": "1",
+						"pageName": "Fetchmail Grows Up",
+						"fileName": "fetchmailgrowsup.xhtml"
+					},
+					{
+						"pageNumber": "15",
+						"indentation": "1",
+						"pageName": "A Few More Lessons from Fetchmail",
+						"fileName": "lessonsfetchmail.xhtml"
+					},
+					{
+						"pageNumber": "16",
+						"indentation": "1",
+						"pageName": "Necessary Preconditions for the Bazaar Style",
+						"fileName": "neccessarypreconditions.xhtml"
+					},
+					{
+						"pageNumber": "17",
+						"indentation": "1",
+						"pageName": "The Social Context of Open-Source Software",
+						"fileName": "socialcontext.xhtml"
+					},
+					{
+						"pageNumber": "18",
+						"indentation": "1",
+						"pageName": "On Management and the Maginot Line",
+						"fileName": "managementmaginot.xhtml"
+					},
+					{
+						"pageNumber": "19",
+						"indentation": "1",
+						"pageName": "Epilog: Netscape Embraces the Bazaar",
+						"fileName": "epilog.xhtml"
+					},
+					{
+						"pageNumber": "20",
+						"indentation": "1",
+						"pageName": "Lessons for Creating Good Open Source Software",
+						"fileName": "lessonsgood.xhtml"
+					},
+					{
+						"pageNumber": "21",
+						"indentation": "1",
+						"pageName": "Bibliography",
+						"fileName": "bibliography.xhtml"
+					},
+					{
+						"pageNumber": "22",
+						"indentation": "1",
+						"pageName": "Acknowledgements",
+						"fileName": "acknowledgements.xhtml"
+					},
+					{
+						"pageNumber": "23",
+						"indentation": "1",
+						"pageName": "Back Cover",
+						"fileName": "backcover.xhtml"
+					}
+				]
+}
