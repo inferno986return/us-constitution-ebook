@@ -1,9 +1,8 @@
-# The Cathedral & the Bazaar
-The Cathedral & the Bazaar, The E-book.
+# The United States Constitution and Amendments and other documents by the Founding Father
 
-This is to my knowledge the only free ePub of Eric S. Raymond's iconic essay *The Cathedral & the Bazaar*. This e-book should qualify as a "minor change" under the license, though I have shifted the notes into each chapter and added a full list of the lessons at the end.
+This is a free e-book of the United States Constitution and Amendments (as well as other documents), which should serve the purpose of being a *Pocket Constitution*.
 
-Support Eric S. Raymond via Patreon: https://www.patreon.com/esr
+If you like my work, support me on [PayPal](https://www.paypal.me/HalMotley).
 
 ## Compiling
 
@@ -21,11 +20,7 @@ I personally combine the commands by running `python3 CreateE-book.py && java -j
 
 ## Licensing:
 
-Book text content is licensed under the **Open Publication License 2.0**.
-
-Book image content are licensed under **CC0** and **CC-BY-SA 2.0**.
-
-Book code such as the .xhtml, .css and .xml files are licensed under the **Creative Commons Zero 1.0 Universal (CC0 1.0)**.
+Book text content and code such as the .xhtml, .css and .xml files are licensed under the **Creative Commons Zero 1.0 Universal (CC0 1.0)**.
 
 The `CreateE-book.py` script designed to be part of my [https://github.com/inferno986return/ebookbuild](ebookbuild) project and is currently licensed under the **GNU General Public License v3**.
 
